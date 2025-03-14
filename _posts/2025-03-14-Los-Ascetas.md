@@ -1,7 +1,8 @@
 ---
 layout: post
 title: Los Ascetas
-genre: poema 
+genre: Poema
+tag: [Poema]
 date: 2025-03-14
 ---
   

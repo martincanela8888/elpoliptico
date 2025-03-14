@@ -2,7 +2,9 @@ title: "El Políptico"
 author: "Martín Cuentacanas"
 description: "De momento, una gran nada."
 
-
+show_excerpts: true
+excerpt_separator: <!--more-->
+permalink: /:year/:month/:day/:title/
 
 #########################################################################################
 ######### NO MODIFICAR #########
@@ -27,3 +29,4 @@ defaults:
       type: post
     values:
       tags: Other
+      layout: post

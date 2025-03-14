@@ -2,20 +2,37 @@
 <div class="post_navi">
   {%- if page.previous.url -%}
   <a class="post_navi-item nav_prev" href="{{ site.baseurl }}{{ page.previous.url }}" title="{{ page.previous.title }}">
-    <div class="post_navi-arrow">&lt;</div><div class="post_navi-label">Post Previo</div><div><span>{{ page.previous.title }}</span></div>
+    <div class="post_navi-arrow"><i class="fas fa-chevron-left"></i></div>
+    <div class="post_navi-content">
+      <div class="post_navi-label">Post Previo</div>
+      <div class="post_navi-title"><span>{{ page.previous.title }}</span></div>
+    </div>
   </a>
   {%- else -%}
-  <a class="post_navi-item nav_prev" href="{{ 'archive.html' | absolute_url }}" title="Blog Archive">
-    <div class="post_navi-arrow">&lt;</div><div class="post_navi-label">Archivo</div><div><span>Archivo de todos los posts previos</span></div>
+  <a class="post_navi-item nav_prev" href="{{ site.baseurl }}/archive" title="Archivo Literario">
+    <div class="post_navi-arrow"><i class="fas fa-chevron-left"></i></div>
+    <div class="post_navi-content">
+      <div class="post_navi-label">Archivo</div>
+      <div class="post_navi-title"><span>Explorar todos los escritos</span></div>
+    </div>
   </a>
   {%- endif -%}
+  
   {%- if page.next.url -%}
   <a class="post_navi-item nav_next" href="{{ site.baseurl }}{{ page.next.url }}" title="{{ page.next.title }}">
-    <div class="post_navi-arrow">&gt;</div><div class="post_navi-label">Post Siguiente</div><div><span>{{ page.next.title }}</span></div>
+    <div class="post_navi-content">
+      <div class="post_navi-label">Post Siguiente</div>
+      <div class="post_navi-title"><span>{{ page.next.title }}</span></div>
+    </div>
+    <div class="post_navi-arrow"><i class="fas fa-chevron-right"></i></div>
   </a>
   {%- else -%}
-  <a class="post_navi-item nav_next" href="{{ 'archive.html' | absolute_url }}" title="Blog Archive">
-    <div class="post_navi-arrow">&gt;</div><div class="post_navi-label">Archivo</div><div><span>Archivo de todos los posts previos</span></div>
+  <a class="post_navi-item nav_next" href="{{ site.baseurl }}/archive" title="Archivo Literario">
+    <div class="post_navi-content">
+      <div class="post_navi-label">Archivo</div>
+      <div class="post_navi-title"><span>Explorar todos los escritos</span></div>
+    </div>
+    <div class="post_navi-arrow"><i class="fas fa-chevron-right"></i></div>
   </a>
   {%- endif -%}
 </div>

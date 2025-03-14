@@ -1,7 +1,8 @@
 ---
 layout: post
 title: Cuento de La Estepa
-genre: cuento
+genre: Cuento
+tag: [Cuento]
 date: 2025-03-14
 ---
 

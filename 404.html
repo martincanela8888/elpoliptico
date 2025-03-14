@@ -1,0 +1,80 @@
+---
+layout: default
+permalink: /404.html
+---
+
+<div class="error-page">
+  <h1>404</h1>
+  <h2>Página no encontrada</h2>
+  <p>Perdón, la página que estás buscando no existe o fue movida.</p>
+  <div class="error-actions">
+    <a href="{{ site.baseurl }}/" class="btn-primary">Volver al Inicio</a>
+    <a href="{{ site.baseurl }}/archive" class="btn-secondary">Explorar el Archivo</a>
+  </div>
+</div>
+
+<style>
+  .error-page {
+    text-align: center;
+    padding: 60px 20px;
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  .error-page h1 {
+    font-size: 8rem;
+    margin: 0;
+    color: #2c3e50;
+    font-family: 'Playfair Display', serif;
+  }
+  
+  .error-page h2 {
+    font-size: 2rem;
+    margin-top: 0;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .error-page p {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+    color: #666;
+  }
+  
+  .error-actions {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .btn-primary, .btn-secondary {
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 4px;
+    font-weight: 500;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn-primary {
+    background-color: #2c3e50;
+    color: white;
+  }
+  
+  .btn-primary:hover {
+    background-color: #3a506b;
+    color: white;
+    text-decoration: none;
+  }
+  
+  .btn-secondary {
+    background-color: #f5f5f5;
+    color: #333;
+    border: 1px solid #ddd;
+  }
+  
+  .btn-secondary:hover {
+    background-color: #e5e5e5;
+    color: #333;
+    text-decoration: none;
+  }
+</style>
