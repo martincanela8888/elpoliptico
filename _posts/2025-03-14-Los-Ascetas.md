@@ -1,3 +1,9 @@
+---
+layout: post
+title: Los Ascetas
+genre: poema 
+date: 2025-03-14
+---
   
 He intentado vivir  
 Libre de los crímenes más sutiles  
