@@ -15,7 +15,7 @@ Lovecraftiano, Ballardiano, Marciano y coso
       <h3><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h3>
       <p class="meta">{{ post.date | date: "%B %d, %Y" }} • {% if post.genre %}{{ post.genre }}{% else %}Uncategorized{% endif %}</p>
       <p class="excerpt">{{ post.excerpt | strip_html | truncatewords: 30 }}</p>
-      <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read more →</a>
+      <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Leer Más →</a>
     </div>
   {% endfor %}
 </div>
